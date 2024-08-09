@@ -1,8 +1,8 @@
 function filterItems(arr1, arr2) {
   const readyArr1 = arr1.filter((item) => item > 0);
-  const readyAer2 = arr2.filter((item) => item > 0);
+  const readyArr2 = arr2.filter((item) => item > 0);
 
-  return [...readyArr1, ...readyAer2];
+  return [...readyArr1, ...readyArr2];
 }
 
 // przykładowy input:
